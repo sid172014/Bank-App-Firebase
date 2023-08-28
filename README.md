@@ -1,5 +1,5 @@
 # Bank-App-Firebase
-This is a Bank Application, served with Firebase as the backend service, where the user can create their accounts or login to their already existing accounts (in case if they would have created it) and thus can do online transactions with the accounts that exists inside the Firestore database
+This is a Bank Application, served with Firebase as the backend service, where the user can create their accounts or login to their already existing accounts (in case if they would have created it) or they can even use the 'Login with Google' option which is faster and convinient way and thus users can do online transactions with the accounts that exists inside the Firestore database
 
 ## Installation
 The command below, when ran in the terminal, helps the user install all the npm modules that is required to run the app / project
