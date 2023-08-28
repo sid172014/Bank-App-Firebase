@@ -21,4 +21,4 @@ For users who want to test the application can simply visit the link adhered wit
 <img width="1437" alt="Screenshot 2023-08-29 at 12 18 35 AM" src="https://github.com/sid172014/Bank-App-Firebase/assets/68033955/5a4947f7-d807-4246-ada8-220a9676ef20">
 <img width="1440" alt="Screenshot 2023-08-29 at 12 24 14 AM" src="https://github.com/sid172014/Bank-App-Firebase/assets/68033955/91cb1f37-5bc8-4088-90c5-b8463edb15ed">
 <img width="1440" alt="Screenshot 2023-08-29 at 12 24 33 AM" src="https://github.com/sid172014/Bank-App-Firebase/assets/68033955/98ca452f-b125-4d33-b781-b81176eee289">
-<img width="1438" alt="Screenshot 2023-08-29 at 12 24 51 AM" src="https://github.com/sid172014/Bank-App-Firebase/assets/68033955/187321a2-2795-4abd-a2ac-3b3c7916fef3">
+<img width="1438" alt="Screenshot 2023-08-29 at 12 33 56 AM" src="https://github.com/sid172014/Bank-App-Firebase/assets/68033955/417a866c-4f51-4999-9b33-2f824b8e4e18">
