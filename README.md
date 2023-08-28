@@ -13,4 +13,4 @@ The commands below are used for developers who want to customize / tweak the app
 npm build
 ```
 
-For users who want to test the application can simply visit the link adhered with the repository
+For users who want to test the application can simply visit the link adhered with the repository https://project-firebase-bank-app.firebaseapp.com/
