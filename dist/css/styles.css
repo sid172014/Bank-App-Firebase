@@ -1,0 +1,599 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Hides */
+::-webkit-scrollbar {
+    display: none;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Index.HTML CSS targets */
+
+
+
+/* .main-page .background-image{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+.main-page{
+    width: 100%;
+    height: 80vh;
+}
+
+.main-page .background-image{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.user-links{
+    min-height: 15vh !important;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+.user-links .sign-up , .user-links .login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+}
+
+.user-links .sign-up a, .user-links .login a{
+    color: white;
+    text-decoration: none;
+
+    text-align: center;
+    height: 100%;
+    font-size: 1.3em;
+}
+
+.user-links .sign-up a:hover, .user-links .login a:hover{
+    color: gold;
+}
+
+
+/* Index.HTML CSS targets end here */
+
+
+/* signup.HTML CSS targets */
+
+.registrationForm{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(33,37,41,1);
+}
+
+.registrationForm .wrapper{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: #fff;
+    padding: 34px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  }
+  .registrationForm .wrapper h2{
+    position: relative;
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+  }
+  .registrationForm .wrapper h2::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 28px;
+    border-radius: 12px;
+    background: gold;
+  }
+  .registrationForm .wrapper form{
+    margin-top: 30px;
+  }
+  .registrationForm .wrapper form .input-box{
+    height: 52px;
+    margin: 18px 0;
+  }
+  .registrationForm .buttons{
+    height: 52px;
+    margin: 18px 0;
+  }
+  .registrationForm .buttons button{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border: 1.5px solid #C7BEBE;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    background: gold;
+    cursor: pointer;
+  }
+  .registrationForm .buttons a{
+    text-decoration: none;
+    outline: none;
+    padding: 17px 102px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border: 1.5px solid #C7BEBE;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    background: gold;
+    cursor: pointer;
+  }
+
+  .registrationForm form .input-box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border: 1.5px solid #C7BEBE;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+  .registrationForm .input-box input:focus,
+  .registrationForm .input-box input:valid{
+    border-color: gold;
+  }
+
+  .registrationForm form h3{
+    color: #707070;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+
+  
+  .registrationForm form .text h3{
+   color: #333;
+   width: 100%;
+   text-align: center;
+  }
+  .registrationForm form .text h3 a{
+    color: gold;
+    text-decoration: none;
+  }
+  .registrationForm form .text h3 a:hover{
+    text-decoration: underline;
+  }
+/* signup.HTML CSS targets end here */
+
+
+/* Profile.HTML CSS targets */
+
+/* Profile.HTML CSS targets ends here */
+
+.profile-uploads{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(33,37,41,1);
+
+}
+
+.profile-uploads .wrapper{
+  position: relative;
+  max-width: 430px;
+  width: 100%;
+  background: #fff;
+  padding: 34px;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.profile-uploads .wrapper h2{
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+.profile-uploads .wrapper h2::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 28px;
+  border-radius: 12px;
+  background: gold;
+}
+.profile-uploads .wrapper form{
+  margin-top: 30px;
+}
+.profile-uploads .wrapper form .input-box{
+  height: 52px;
+  margin: 18px 0;
+}
+.profile-uploads .buttons{
+  height: 52px;
+  margin: 18px 0;
+}
+.profile-uploads .buttons button{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #C7BEBE;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  background: gold;
+  cursor: pointer;
+}
+.profile-uploads .buttons a{
+  text-decoration: none;
+  outline: none;
+  padding: 17px 102px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #C7BEBE;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  background: gold;
+  cursor: pointer;
+}
+
+.profile-uploads form .input-box input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #C7BEBE;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.profile-uploads form div:nth-child(1) button{
+  background-image: url('../img/user.png');
+  background-position: center;
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: none;
+}
+
+.profile-uploads .input-box input:focus,
+.profile-uploads .input-box input:valid{
+  border-color: gold;
+}
+
+.profile-uploads form h3{
+  color: #707070;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+
+.profile-uploads form .text h3{
+ color: #333;
+ width: 100%;
+ text-align: center;
+}
+.profile-uploads form .text h3 a{
+  color: gold;
+  text-decoration: none;
+}
+.profile-uploads form .text h3 a:hover{
+  text-decoration: underline;
+}
+
+
+/* transaction.html CSS targets */
+
+.payment{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(33,37,41,1);
+}
+
+.payment .wrapper{
+  position: relative;
+  max-width: 430px;
+  width: 100%;
+  background: #fff;
+  padding: 34px;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.payment .wrapper h2{
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+.payment .wrapper h2::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 28px;
+  border-radius: 12px;
+  background: gold;
+}
+.payment .wrapper form{
+  margin-top: 30px;
+}
+.payment .wrapper form .input-box{
+  height: 52px;
+  margin: 18px 0;
+}
+.payment .buttons{
+  height: 52px;
+  margin: 18px 0;
+}
+.payment .buttons button{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #C7BEBE;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  background: gold;
+  cursor: pointer;
+}
+.payment .buttons a{
+  text-decoration: none;
+  outline: none;
+  padding: 17px 102px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #C7BEBE;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  background: gold;
+  cursor: pointer;
+}
+
+.payment form .input-box input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #C7BEBE;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+.payment form .input-box select{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #C7BEBE;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+.payment .input-box input:focus,
+.payment .input-box input:valid{
+  border-color: gold;
+}
+
+.payment form h3{
+  color: #707070;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+
+.payment form .text h3{
+ color: #333;
+ width: 100%;
+ text-align: center;
+}
+.payment form .text h3 a{
+  color: gold;
+  text-decoration: none;
+}
+.payment form .text h3 a:hover{
+  text-decoration: underline;
+}
+
+/* transaction.html CSS targets ends here */
+
+
+/* Login.html CSS targets starts here */
+.loginForm{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(33,37,41,1);
+}
+
+.loginForm .wrapper{
+  position: relative;
+  max-width: 430px;
+  width: 100%;
+  background: #fff;
+  padding: 34px;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.loginForm .wrapper h2{
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+.loginForm .wrapper h2::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 28px;
+  border-radius: 12px;
+  background: gold;
+}
+.loginForm .wrapper form{
+  margin-top: 30px;
+}
+.loginForm .wrapper form .input-box{
+  height: 52px;
+  margin: 18px 0;
+}
+.loginForm .buttons{
+  height: 52px;
+  margin: 18px 0;
+}
+.loginForm .buttons button{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #C7BEBE;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  background: gold;
+  cursor: pointer;
+}
+.loginForm .buttons a{
+  text-decoration: none;
+  outline: none;
+  padding: 17px 102px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #C7BEBE;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  background: gold;
+  cursor: pointer;
+}
+
+.loginForm form .input-box input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #C7BEBE;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+.loginForm .input-box input:focus,
+.loginForm .input-box input:valid{
+  border-color: gold;
+}
+
+.loginForm form h3{
+  color: #707070;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+
+.loginForm form .text h3{
+ color: #333;
+ width: 100%;
+ text-align: center;
+}
+.loginForm form .text h3 a{
+  color: gold;
+  text-decoration: none;
+}
+.loginForm form .text h3 a:hover{
+  text-decoration: underline;
+}
+/* Login.html CSS targets ends here */
